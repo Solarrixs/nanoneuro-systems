@@ -10,7 +10,6 @@ export default function Home() {
         <meta property="og:description" content="Building the future of energy efficient semiconductors. We are looking for MSE, EE, or BE major cofounders." />
         <meta property="og:image" content="/logo.png" />
         <meta property="og:type" content="website" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-screen h-screen flex flex-col justify-center items-center">
         <div className="text-center max-w-lg mb-10">

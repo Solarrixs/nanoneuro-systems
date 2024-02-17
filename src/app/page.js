@@ -16,12 +16,12 @@ export default function Home() {
             building the future of energy<br /> efficient semiconductors
           </h2>
         </div>
-        <div className="mb-4">
+        <div className="mb-4 items-center justify-center">
           <div>
           <User
-            className="mr-8"
+            className="ml-4 mr-8"
             name="Maxx Yung"
-            description="Materials Engineer"
+            description="Materials Lead"
             avatarProps={{
               src: "/maxx.webp"
             }}
@@ -29,7 +29,7 @@ export default function Home() {
           <User
             className="mr-8"
             name="Joe Kojima"
-            description="Biological Engineer"
+            description="Biologics Lead"
             avatarProps={{
               src: "/joe.webp"
             }}
@@ -37,9 +37,9 @@ export default function Home() {
           </div>
           <div className="mb-4">
           <User
-            className="mr-8"
+            className="ml-4 mr-8"
             name="Izzy Huang"
-            description="Electrical Engineer"
+            description="Electrical Lead"
             avatarProps={{
               src: "/izzy.webp"
             }}
@@ -47,7 +47,7 @@ export default function Home() {
           <User
             className="mr-8"
             name="Sean Fang"
-            description="Computer Science"
+            description="Comp Sci Lead"
             avatarProps={{
               src: "/sean.webp"
             }}

@@ -15,18 +15,47 @@ export default function Home() {
           <h2 className="text-stone-200 font-bold text-2xl mb-8">
             building the future of energy<br /> efficient semiconductors
           </h2>
+        </div>
+        <div className="mb-4">
+          <div>
           <User
-            className="mb-32"
+            className="mr-8"
             name="Maxx Yung"
-            description="Founder"
+            description="Materials Engineer"
             avatarProps={{
-              src: "/headshot.webp"
+              src: "/maxx.webp"
             }}
           />
+          <User
+            className="mr-8"
+            name="Joe Kojima"
+            description="Biological Engineer"
+            avatarProps={{
+              src: "/joe.webp"
+            }}
+          />
+          </div>
+          <div className="mb-4">
+          <User
+            className="mr-8"
+            name="Izzy Huang"
+            description="Electrical Engineer"
+            avatarProps={{
+              src: "/izzy.webp"
+            }}
+          />
+          <User
+            className="mr-8"
+            name="Sean Fang"
+            description="Computer Science"
+            avatarProps={{
+              src: "/sean.webp"
+            }}
+          />
+          </div>
         </div>
         <h2 className="text-stone-200 font-bold text-1xl mb-4 text-center">
-            looking for MSE, EE, or BE major cofounders<br />
-            if you&apos;re interested, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:myung11@seas.upenn.edu">email me</a>
+          if you&apos;re still interested in joining or looking to fund, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:myung11@seas.upenn.edu">email me</a>
           </h2>
       </div>
     </>

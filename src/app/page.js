@@ -1,10 +1,11 @@
 import {User} from "@nextui-org/user";
+import {Link} from "@nextui-org/link";
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
-      <div className="w-screen h-screen flex flex-col justify-center items-center">
+      <div className="w-screen h-screen flex flex-col justify-center items-center bg-black">
         <div className="text-center max-w-lg">
           <Image
             src="/image.webp"
@@ -16,11 +17,14 @@ export default function Home() {
             building the future of energy<br /> efficient semiconductors
           </h2>
         </div>
-        <div className="mb-4 items-center justify-center">
+        <div className="mb-4 items-center justify-center text-stone-200">
           <div>
           <User
             className="ml-4 mr-8"
-            name="Maxx Yung"
+            name=
+            <Link href="https://www.linkedin.com/in/maxxyung/" size="sm" color="foreground" underline="hover" isExternal showAnchorIcon>
+              Maxx Yung
+            </Link>
             description="Materials Lead"
             avatarProps={{
               src: "/maxx.webp"
@@ -28,7 +32,10 @@ export default function Home() {
           />
           <User
             className="mr-8"
-            name="Joe Kojima"
+            name=
+            <Link href="https://www.linkedin.com/in/joekojima/" size="sm" color="foreground" underline="hover" isExternal showAnchorIcon>
+              Joe Kojima
+            </Link>
             description="Biologics Lead"
             avatarProps={{
               src: "/joe.webp"
@@ -38,7 +45,10 @@ export default function Home() {
           <div className="mb-4">
           <User
             className="ml-4 mr-8"
-            name="Izzy Huang"
+            name=
+            <Link href="https://www.linkedin.com/in/ihuangg/" size="sm" color="foreground" underline="hover" isExternal showAnchorIcon>
+              Izzy Huang
+            </Link>
             description="Electrical Lead"
             avatarProps={{
               src: "/izzy.webp"
@@ -46,7 +56,10 @@ export default function Home() {
           />
           <User
             className="mr-8"
-            name="Sean Fang"
+            name=
+            <Link href="https://www.linkedin.com/in/sefang/" size="sm" color="foreground" underline="hover" isExternal showAnchorIcon>
+              Sean Fang
+            </Link>
             description="Comp Sci Lead"
             avatarProps={{
               src: "/sean.webp"
@@ -55,7 +68,7 @@ export default function Home() {
           </div>
         </div>
         <h2 className="text-stone-200 font-bold text-1xl mb-4 text-center">
-          if you&apos;re still interested in joining or looking to fund, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:myung11@seas.upenn.edu">email me</a>
+          if you&apos;re looking to fund, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:myung11@seas.upenn.edu">email us</a>
           </h2>
       </div>
     </>

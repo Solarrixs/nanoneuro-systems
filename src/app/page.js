@@ -102,6 +102,19 @@ export default function Home() {
                 size: "md",
               }}
             />
+            <User
+              className="mx-4"
+              name={
+                <Link href="https://www.linkedin.com/in/ethanbober" size="md" color="foreground" underline="hover" isExternal showAnchorIcon>
+                  Ethan Bober
+                </Link>
+              }
+              description="Materials Engineer"
+              avatarProps={{
+                src: "/ethan.webp",
+                size: "md",
+              }}
+            />
           </div>
         </div>
         <h2 className="text-stone-200 font-bold text-1xl mb-4 mt-8 text-center">

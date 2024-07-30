@@ -118,7 +118,7 @@ export default function Home() {
           </div>
         </div>
         <h2 className="text-stone-200 font-bold text-1xl mb-4 mt-8 text-center">
-          if you&apos;re looking to fund, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:myung11@seas.upenn.edu">email us</a>
+          if you&apos;re looking to fund, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:maxx@nanoneuro.systems">email us</a>
         </h2>
       </div>
     </>

@@ -96,7 +96,7 @@ export default function Home() {
                   Richard Wang
                 </Link>
               }
-              description="Outreach Assistant"
+              description="Outreach Director"
               avatarProps={{
                 src: "/rich.webp",
                 size: "md",

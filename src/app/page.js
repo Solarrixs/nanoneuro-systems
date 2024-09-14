@@ -75,6 +75,35 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="w-full border-t border-gray-600 my-4"></div>
+          <div className="flex">
+            <User
+              className="mx-4"
+              name={
+                <Link href="https://www.linkedin.com/in/allenyjl/" size="md" color="foreground" underline="hover" isExternal showAnchorIcon>
+                  Allen Liu
+                </Link>
+              }
+              description="Data"
+              avatarProps={{
+                src: "/allen.webp",
+                size: "md",
+              }}
+            />
+            <User
+              className="mx-4"
+              name={
+                <Link href="https://www.linkedin.com/in/richard-wang-73b20b284/" size="md" color="foreground" underline="hover" isExternal showAnchorIcon>
+                  Richard Wang
+                </Link>
+              }
+              description="Finance"
+              avatarProps={{
+                src: "/rich.webp",
+                size: "md",
+              }}
+            />
+          </div>
         <h2 className="text-stone-200 font-bold text-1xl mb-4 mt-8 text-center">
           if you&apos;re looking to fund, <a className="hover:text-nanoPurple underline transition duration-200" href="mailto:maxx@nanoneuro.systems">email us</a>
         </h2>

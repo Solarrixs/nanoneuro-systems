@@ -5,12 +5,12 @@ import Image from 'next/image';
 
 export default function Home() {
   const users = [
-    { name: "Maxx", role: "Nanotech", linkedin: "https://www.linkedin.com/in/maxxyung/", avatar: "/maxx.webp" },
-    { name: "Joe", role: "Biological", linkedin: "https://www.linkedin.com/in/joekojima/", avatar: "/joe.webp" },
-    { name: "Izzy", role: "Electrical", linkedin: "https://www.linkedin.com/in/ihuangg/", avatar: "/izzy.webp" },
-    { name: "Sean", role: "Software", linkedin: "https://www.linkedin.com/in/sefang/", avatar: "/sean.webp" },
-    { name: "Allen", role: "Data", linkedin: "https://www.linkedin.com/in/allenyjl/", avatar: "/allen.webp" },
-    { name: "Kevin", role: "AI", linkedin: "https://www.linkedin.com/in/kevin-song-613582235/", avatar: "/kevin.webp" },
+    { name: "Maxx", role: "Cofounder", linkedin: "https://www.linkedin.com/in/maxxyung/", avatar: "/maxx.webp" },
+    { name: "Joe", role: "Cofounder", linkedin: "https://www.linkedin.com/in/joekojima/", avatar: "/joe.webp" },
+    { name: "Izzy", role: "Cofounder", linkedin: "https://www.linkedin.com/in/ihuangg/", avatar: "/izzy.webp" },
+    { name: "Sean", role: "Cofounder", linkedin: "https://www.linkedin.com/in/sefang/", avatar: "/sean.webp" },
+    { name: "Kevin", role: "ML", linkedin: "https://www.linkedin.com/in/kevin-song-613582235/", avatar: "/kevin.webp" },
+    { name: "Matthew", role: "Chem", linkedin: "https://www.linkedin.com/in/matthew-lin-35b1421aa/", avatar: "/matthew.webp" },
   ];
 
   return (

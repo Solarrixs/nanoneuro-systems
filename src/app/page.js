@@ -9,7 +9,7 @@ export default function Home() {
     { name: "Joe", role: "Cofounder", linkedin: "https://www.linkedin.com/in/joekojima/", avatar: "/joe.webp" },
     { name: "Izzy", role: "Cofounder", linkedin: "https://www.linkedin.com/in/ihuangg/", avatar: "/izzy.webp" },
     { name: "Sean", role: "Cofounder", linkedin: "https://www.linkedin.com/in/sefang/", avatar: "/sean.webp" },
-    { name: "Kevin", role: "ML", linkedin: "https://www.linkedin.com/in/kevin-song-613582235/", avatar: "/kevin.webp" },
+    { name: "Richard", role: "ML", linkedin: "https://www.linkedin.com/in/richard-wang-73b20b284/", avatar: "/rich.webp" },
     { name: "Matthew", role: "Chem", linkedin: "https://www.linkedin.com/in/matthew-lin-35b1421aa/", avatar: "/matthew.webp" },
   ];
 

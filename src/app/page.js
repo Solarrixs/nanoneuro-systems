@@ -9,11 +9,11 @@ export default function Home() {
     { name: "Joe", role: "Bio", linkedin: "https://www.linkedin.com/in/joekojima/", avatar: "/joe.webp" },
     { name: "Izzy", role: "Silicon", linkedin: "https://www.linkedin.com/in/ihuangg/", avatar: "/izzy.webp" },
     { name: "Sean", role: "Software", linkedin: "https://www.linkedin.com/in/sefang/", avatar: "/sean.webp" },
-    { name: "Allen", role: "Software", linkedin: "https://www.linkedin.com/in/allenyjl/", avatar: "/allen.webp" },,
-    { name: "Richard", role: "Chem", linkedin: "https://www.linkedin.com/in/richard-zhuang-52655b284/", avatar: "/richard.webp" },
-    { name: "Ethan", role: "Chem", linkedin: "https://www.linkedin.com/in/ethanbober/", avatar: "/ethan.webp" },
-    { name: "Matthew", role: "Chem", linkedin: "https://www.linkedin.com/in/matthew-lin-35b1421aa/", avatar: "/matthew.webp" },
-    { name: "Richard", role: "Moral Support", linkedin: "https://www.linkedin.com/in/richard-wang-73b20b284/", avatar: "/rich.webp" },
+    // { name: "Allen", role: "Software", linkedin: "https://www.linkedin.com/in/allenyjl/", avatar: "/allen.webp" },,
+    // { name: "Richard", role: "Chem", linkedin: "https://www.linkedin.com/in/richard-zhuang-52655b284/", avatar: "/richard.webp" },
+    // { name: "Ethan", role: "Chem", linkedin: "https://www.linkedin.com/in/ethanbober/", avatar: "/ethan.webp" },
+    // { name: "Matthew", role: "Chem", linkedin: "https://www.linkedin.com/in/matthew-lin-35b1421aa/", avatar: "/matthew.webp" },
+    // { name: "Richard", role: "Moral Support", linkedin: "https://www.linkedin.com/in/richard-wang-73b20b284/", avatar: "/rich.webp" },
   ];
 
   return (

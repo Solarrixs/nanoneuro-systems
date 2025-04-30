@@ -28,22 +28,8 @@ export default function Home() {
           />
         </div>
         <h2 className="text-stone-200 font-bold text-2xl">
-          biological computing
+          general biological intelligence
         </h2>
-        <div className="flex flex-col gap-2 mt-4">
-          <p className="text-fuchsia-400 text-lg">
-            faster, efficient, native analog hardware for ml
-          </p>
-          <p className="text-pink-400 text-lg">
-            silicon designed and manufactured in-house
-          </p>
-          <p className="text-purple-400 text-lg">
-            using biological neurons for pim architecture
-          </p>
-          <p className="text-stone-400 text-lg">
-            research project led by upenn students
-          </p>
-        </div>
       </div>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

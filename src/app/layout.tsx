@@ -3,8 +3,8 @@ import './globals.css'
 import {Providers} from "./providers";
 
 export const metadata = {
-  title: 'Nanoneuro',
-  description: 'Creating energy efficient AI chips using human brain cells',
+  title: 'Nanoneuro Systems',
+  description: 'Biological computing',
   metadataBase: new URL('https://nanoneuro.systems'),
   openGraph: {
     images: '/opengraph-image.png',

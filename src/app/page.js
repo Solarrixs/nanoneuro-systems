@@ -469,7 +469,7 @@ export default function NeuralWaveVisualization() {
         ref={canvasRef}
         className="absolute inset-0"
       />
-      <div className="absolute bottom-16 left-1/2 -translate-x-1/2 text-indigo-300 font-mono text-lg tracking-wide text-center w-full max-w-2xl">
+      <div className="absolute bottom-16 left-1/2 -translate-x-1/2 text-indigo-300 font-mono text-[14px] sm:text-base md:text-lg tracking-wide text-center w-full max-w-2xl px-4 whitespace-nowrap">
         <div className="fade-in-line" style={{ animationDelay: '0.15s' }}>
           this is what human thought looks like: sparse & complex
         </div>
@@ -485,7 +485,7 @@ export default function NeuralWaveVisualization() {
         <div className="fade-in-line" style={{ animationDelay: '0.75s' }}>
           <a 
             href="mailto:maxx@nanoneuro.systems" 
-            className="underline decoration-indigo-500 hover:decoration-indigo-300 transition-colors duration-300 hover:text-indigo-100"
+            className="underline decoration-indigo-300/50 hover:decoration-indigo-300 transition-colors duration-300 hover:text-indigo-100"
           >
             email us here
           </a>

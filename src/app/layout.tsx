@@ -3,9 +3,9 @@ import './globals.css'
 import {Providers} from "./providers";
 
 export const metadata = {
-  title: 'Nanoneuro Systems',
+  title: 'Engram Compute',
   description: 'Biological computing',
-  metadataBase: new URL('https://nanoneuro.systems'),
+  metadataBase: new URL('https://engramcompute.com'),
   openGraph: {
     images: '/opengraph-image.png',
   },
